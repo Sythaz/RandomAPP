@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cat Facts - Tugas 9</string>
+    <string name="breed">Breed:</string>
+    <string name="breed_desc">Breed Desc</string>
+    <string name="country">Country:</string>
+    <string name="country_desc">Country Desc</string>
+    <string name="origin_desc">Origin Desc</string>
+    <string name="coat">Coat:</string>
+    <string name="coat_desc">Coat Desc</string>
+    <string name="pattern">Pattern:</string>
+    <string name="pattern_desc">Pattern Desc</string>
+</resources>

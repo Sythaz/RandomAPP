@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_utama"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewBreed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/breed"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBreed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/breed_desc"
+        app:layout_constraintStart_toEndOf="@+id/textViewBreed"
+        app:layout_constraintTop_toTopOf="@+id/textViewBreed" />
+
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/country"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBreed" />
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/country_desc"
+        app:layout_constraintStart_toStartOf="@+id/tvBreed"
+        app:layout_constraintTop_toTopOf="@+id/textViewCountry" />
+
+    <TextView
+        android:id="@+id/textViewOrigin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Origin:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCountry" />
+
+    <TextView
+        android:id="@+id/tvOrigin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/origin_desc"
+        app:layout_constraintStart_toStartOf="@+id/tvCountry"
+        app:layout_constraintTop_toTopOf="@+id/textViewOrigin" />
+
+    <TextView
+        android:id="@+id/textViewCoat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/coat"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOrigin" />
+
+    <TextView
+        android:id="@+id/tvCoat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/coat_desc"
+        app:layout_constraintStart_toStartOf="@+id/tvOrigin"
+        app:layout_constraintTop_toTopOf="@+id/textViewCoat" />
+
+    <TextView
+        android:id="@+id/textViewPattern"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/pattern"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCoat" />
+
+    <TextView
+        android:id="@+id/tvPattern"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pattern_desc"
+        app:layout_constraintStart_toStartOf="@+id/tvCoat"
+        app:layout_constraintTop_toTopOf="@+id/textViewPattern" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
